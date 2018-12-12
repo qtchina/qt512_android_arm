@@ -1,0 +1,13 @@
+prefix=/home/gzleo/Qt5.12.0/5.12.0/android_armv7
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 3DRender
+Description: Qt 3DRender module
+Version: 5.12.0
+Libs: -L${libdir} -lQt53DRender 
+Cflags: -DQT_3DRENDER_LIB -I${includedir}/Qt3DRender -I${includedir}
+Requires: Qt5Core Qt5Gui Qt53DCore
+

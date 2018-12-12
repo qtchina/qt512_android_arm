@@ -1,0 +1,13 @@
+prefix=/home/gzleo/Qt5.12.0/5.12.0/android_armv7
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 ScriptTools
+Description: Qt ScriptTools module
+Version: 5.12.0
+Libs: -L${libdir} -lQt5ScriptTools 
+Cflags: -DQT_SCRIPTTOOLS_LIB -I${includedir}/QtScriptTools -I${includedir}
+Requires: Qt5Core
+

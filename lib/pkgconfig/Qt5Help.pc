@@ -1,0 +1,13 @@
+prefix=/home/gzleo/Qt5.12.0/5.12.0/android_armv7
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Help
+Description: Qt Help module
+Version: 5.12.0
+Libs: -L${libdir} -lQt5Help 
+Cflags: -DQT_HELP_LIB -I${includedir}/QtHelp -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets Qt5Sql
+

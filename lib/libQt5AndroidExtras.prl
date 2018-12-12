@@ -1,0 +1,6 @@
+
+QMAKE_PRO_INPUT = androidextras.pro
+QMAKE_PRL_TARGET = libQt5AndroidExtras.so
+QMAKE_PRL_CONFIG = lex yacc depend_includepath testcase_targets import_plugins import_qpa_plugin qt_build_extra file_copies qmake_use qt warn_on release link_prl android_install unversioned_soname unversioned_libname plugin_with_soname android_deployment_settings clang_pch_style android-16 optimize_size cross_compile shared release android linux unix posix gcc clang llvm cross_compile compile_examples prefix_build force_independent force_bootstrap builtin_testdata utf8_source create_prl link_prl prepare_docs qt_docs_targets no_private_qt_headers_warning QTDIR_build qt_example_installs exceptions_off testcase_exceptions explicitlib relative_qt_rpath git_build qmake_cache target_qt c++11 strict_c++ c++14 c++1z c99 c11 hide_symbols qt_install_headers need_fwd_pri qt_install_module create_cmake compiler_supports_fpmath qt_android_deps no_linker_version_script create_pc create_libtool have_target dll thread moc resources
+QMAKE_PRL_VERSION = 5.12.0
+QMAKE_PRL_LIBS = -L/home/gzleo/Qt5.12.0/5.12.0/android_armv7/lib -lQt5Core -L/opt/android/android-ndk-r18b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/opt/android/android-ndk-r18b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a
